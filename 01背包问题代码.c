@@ -27,11 +27,12 @@ int main(){
             }
         }
     }
-    // for(int i = 0;i < M;i++)
-    // {for(int j = 0;j <= N;j++)
-    // printf("%d\t",dp[i][j]);
-    //     printf("\n");
-    // }
+    
+    for(int i = 0;i < M;i++){
+    for(int j = 0;j <= N;j++)
+    printf("%d\t",dp[i][j]);
+    printf("\n");
+    }
     printf("%d",dp[M - 1][N]);
     return 0;
 }
