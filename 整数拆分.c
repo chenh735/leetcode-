@@ -54,6 +54,6 @@ int main(){
 			dp[i] += dp[j - i];
 		}
 	}
-	printf("%d",dp[k]);
+	printf("%d",dp[n]);
 }
 
