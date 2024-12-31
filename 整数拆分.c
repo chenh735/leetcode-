@@ -51,7 +51,7 @@ int main(){
 
 	for(int i = 1;i <= k;i++){
 		for(int j = i;j <= n;j++){
-			dp[i] += dp[j - i];
+			dp[j] += dp[j - i];
 		}
 	}
 	printf("%d",dp[n]);
