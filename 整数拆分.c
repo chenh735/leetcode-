@@ -50,7 +50,7 @@ int main(){
 	dp[0] = 0;
 
 	for(int i = 1;i <= k;i++){
-		for(int j = i;j <= k;j++){
+		for(int j = i;j <= n;j++){
 			dp[i] += dp[j - i];
 		}
 	}
